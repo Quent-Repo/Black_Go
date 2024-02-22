@@ -1,0 +1,1 @@
+document.getElementsByTagName("body")[0].style.cssText = style="background-color:black"

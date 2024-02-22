@@ -1,0 +1,11 @@
+  {
+    "name": "Gobyexample Black",
+    "version": "1.0",
+    "description": "A simple js script to just change the Gobyexample site to have a dark mode.",
+    "manifest_version": 3,
+    "content_scripts":[{
+      "matches":["https://gobyexample.com/*","https://www.gobyexample.com/"],
+      "js": ["main.js"],
+      "run_at": "document_end"
+	   }]
+  }
