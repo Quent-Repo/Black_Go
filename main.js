@@ -20,3 +20,9 @@ let Chroma = document.getElementsByClassName("code")
 for (let i=0; i<Chroma.length;i++){
     Chroma[i].style.cssText = style=`background-color:${Color}`
 }
+
+//Text
+let Text = document.getElementsByTagName("p")
+for (let i=0; i<Text.length;i++){
+    Text[i].style.cssText = style=`color:white`
+}
