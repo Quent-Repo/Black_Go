@@ -1,7 +1,11 @@
 var Color = "black"
 
 //Body background
+/* This would also work
+document.body.style.backgroundColor=`${Color}` 
+*/
 document.getElementsByTagName("body")[0].style.cssText = style=`background-color:${Color}`
+
 
 // Code block
 let Number_Of_Parts = document.getElementsByClassName("code leading")
